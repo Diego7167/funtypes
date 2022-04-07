@@ -11,7 +11,7 @@ A value that either is Some or None
 // Some(10)
 let value = Some(10);
 
-// Some(25)
+// Some(15)
 let plusOne = value.map(i => i + 5);
 
 // None

@@ -1,11 +1,9 @@
 # funtypes
-Functional JavaScript types
+Functional JavaScript types. Heavily inspired by wonderful languages like Rust and Scala.
 
 ## Types
 
 ### Optional
-
-A value that either is Some or None
 
 ```ts
 // Some(10)
@@ -22,8 +20,6 @@ plusOne = value.map(i => i + 5);
 ```
 
 ### Iter
-
-A linked list.
 
 ```ts
 // Iter([1, 2, 3])
